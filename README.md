@@ -1,6 +1,8 @@
 # Vehicle Insurance Domain
 
-[![Project Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](project_demo_video.mp4)
+## Project Demo Video
+
+[![Watch the video](https://img.youtube.com/vi/Kyv4qCXDGtU/0.jpg)](https://youtu.be/Kyv4qCXDGtU)
 
 A complete end-to-end machine learning project for vehicle insurance prediction, featuring data ingestion, validation, transformation, model training, evaluation, deployment, and CI/CD integration with AWS and Docker.
 
