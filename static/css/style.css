@@ -1,0 +1,144 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    background-color: #fff;
+    padding: 32px 28px 28px 28px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    transition: box-shadow 0.3s;
+    margin: 24px 0;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+label {
+    text-align: left;
+    color: #007bff;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f7fbff;
+    transition: border-color 0.2s;
+    margin-bottom: 4px;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f7fbff;
+    transition: border-color 0.2s;
+    margin-bottom: 4px;
+}
+
+button {
+    padding: 12px;
+    background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0,123,255,0.08);
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #0056b3 0%, #007bff 100%);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.train-button {
+    background-color: #28a745;
+    margin-top: 15px;
+}
+
+.train-button:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result h2 {
+    color: #007bff;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 24px;
+    margin-bottom: 0;
+}
+
+button.full-width-btn {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.form-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+
+.form-group label {
+    min-width: 180px;
+    text-align: left;
+    color: #007bff;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.form-group input,
+.form-group select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f7fbff;
+    transition: border-color 0.2s;
+    margin-bottom: 0;
+}
